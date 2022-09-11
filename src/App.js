@@ -33,7 +33,9 @@ class BestBooks extends React.Component {
     /* TODO: render all the books in a Carousel */
     return (
       <>
-      
+
+      <h1>BestBooks</h1>
+
       <Carousel  >
         {this.state.books.length ? (
            this.state.books.map((item) => {
@@ -41,7 +43,9 @@ class BestBooks extends React.Component {
                 <Carousel.Item >
                   <img
                     className="d-block w-100"
+
                     src="https://play-lh.googleusercontent.com/DmpYQrVcldrDuz5uyATqGbNvTALsJ1Bg3fpXM0p-VsRNM19osEB9-_ByvdjSbTvZQg=w450-h300-rw"
+
                     alt={item.title}
                   />
                   <Carousel.Caption>
